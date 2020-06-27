@@ -231,6 +231,10 @@ header #logotipo {
     margin-top: 20px;
 }
 
+#news .thumbnails .col-md-3 {
+
+}
+
 #news .thumbnails h3 {
     color: #5E299A;
     font-size: 18px;
@@ -295,7 +299,6 @@ header #logotipo {
     background-color: #5e299a;
     border-color: #5e299a;
     min-width: 164px;
-    height: 44px;
     line-height: 44px;
     text-transform: uppercase;
 }
@@ -305,7 +308,44 @@ header #logotipo {
     background-color: #fde192;
     border-color: #fde192;
     min-width: 164px;
-    height: 44px;
     line-height: 44px;
     text-transform: uppercase;
+}
+
+footer {
+    margin-top: 110px;
+}
+
+footer .row {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+footer .row-cinza-claro {
+    height: 200px;
+    background-color: #171f26;
+}
+
+footer .row-cinza-escuro {
+    height: 60px;
+    background-color: #11171d;
+    border-top: 1px solid #242d37;
+}
+
+footer .pull-left {
+    font-family: 'OpenSans';
+    font-size: 14px;
+    color: #666;
+    line-height: 56px;
+    margin-bottom: 0;
+}
+
+footer .text-roxo {
+    color: #623291;
+    font-family: 'OpenSans';
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 56px;
+    margin-bottom: 0;
 }
